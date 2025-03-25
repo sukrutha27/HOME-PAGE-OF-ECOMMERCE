@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME PAGEe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color:rgba(9, 246, 214, 0.1);">
+<!--navbar-->
+<nav class="navbar navbar-expand-lg bg-light navbar-danger fixed-top" height="50">
+    <div class="container-fluid">
+        <ul class=" nav navbar-nav">
+        <li class="nav-item ms-3">
+            <a class="nav-brand" data-bs-toggle="offcanvas" data-bs-target="#demo"><img src="https://up.yimg.com/ib/th?id=OIP.gajVfBMw1zNQRq3KtA9QgQHaF7&pid=Api&rs=1&c=1&qlt=95&w=144&h=115" style="width:50px;" class="rounded-pills"></a></li>
+        <li class="nav-item ms-4">
+            <a class="nav-link" href="#">MEN</a></li>
+        <li class="nav-item ms-4">
+            <a class="nav-link" href="#">WOMEN</a></li>
+        <li class="nav-item ms-4">
+            <a class="nav-link" href="#">KID</a> </li>
+        <li class="nav-item ms-5 mt-1">
+            <input type="text" placeholder="  Search for Products or barnds" style="width:500px; border-radius:10px;"></li>
+        <li class="nav-item ms-5">
+            <a class="nav-link" href="#"><i class="fa fa-map-marker" style="font-size:24px"></i></a></li>
+        <li class="nav-item ms-3">
+            <a class="nav-link" href="#"><i class="fa fa-heart-o" style="font-size:24px"></i></a> </li>
+        <li class="nav-item ms-3">
+            <a class="nav-link" href="#"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a> </li>
+        <li class="nav-item ms-5">
+            <a class="nav-link" href="sign.html">signup</a></li>
+        </ul>
+    </div>
+</nav>
+<!--offcanvas-->
+<div class="offcanvas offcanvas-start" id="demo">
+    <div class="offcanvas-header">
+      <h3 class="offcanvas-title">Hello</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        <hr>
+      <p>Orders</p>
+      <p>Cart</p>
+      <p>Wishlist</p>
+      <p>Gift cards</p>
+      <p>contact us</p>
+      <hr>
+      <p>Credits</p>
+      <p>Coupons</p>
+      <p>Saved cards</p>
+      <p>Saved Addresses</p>
+      <hr>
+      <p>sign in</p>
+      <p>Edit Profile</p>
+      <p>Log out</p></p>
+    
+    </div>
+  </div>
+
+<div class="row" style="margin-top:80px;">
+    <div class="col-sm-8">
+          
+<!-- Carousel -->
+  <div id="dem" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#dem" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#dem" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#dem" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#dem" data-bs-slide-to="3"></button>
+      </div>
+      
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="offer4.jpg" class="d-block" width="100%" height="400">
+        </div>
+        <div class="carousel-item">
+          <img src="offer1.jpg"class="d-block" width="100%" height="400">
+        </div>
+        <div class="carousel-item">
+          <img src="offer2.png"class="d-block" width="100%" height="400">
+        </div>
+        <div class="carousel-item">
+          <img src="offer3.avif"class="d-block" width="100%" height="400">
+        </div>
+      </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#dem" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#dem" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    </div>
+    <div class="col-sm-4 mt-5">
+        <h1 align="center" style="padding-top:80px;font-size:60px; font-family: 'Brush Script MT', cursive;
+  "> EXCLUSIVE<br> OFFER</h1>
+    </div>
+</div>
+<br>
+<h2 style="font-family:'Brush Script MT', cursive;color:rgb(0, 0, 0);font-size:50px;">TOP BRANDS</h2>
+<br>
+<!--grid-->
+<div style="padding:30px 200px 100px 200px;">
+  <div class="row" style="padding-bottom:50px"> 
+      <div class="col"><img src="https://tse4.mm.bing.net/th?id=OIP.f7K6hncWUec1n4MC0nkdugAAAA&pid=Api&P=0&h=180"width="100%" height="200"></div>
+      <div class="col"><img src="https://tse3.mm.bing.net/th?id=OIP.brWddjd30-ZNEWKdra8AWgHaGB&pid=Api&P=0&h=180"width="100%" height="200"></div>
+      <div class="col"><img src="https://tse4.mm.bing.net/th?id=OIP.9RqW3HxfVu1-JMrakgHMfwAAAA&pid=Api&P=0&h=180"width="100%" height="200"></div>
+      <div class="col"><img src="https://tse1.mm.bing.net/th?id=OIP.X5ixs9xVMCrlOW-PoL_rhQHaFO&pid=Api&P=0&h=180"width="100%" height="200"></div>
+  </div>
+  <div class="row" style="padding-bottom:50px">
+      <div class="col"><img src="https://tse4.mm.bing.net/th?id=OIP.q9BUcmvop9aHPxgkDHm2kAHaFO&pid=Api&P=0&h=180" width="100%" height="200"></div>
+      <div class="col"><img src="https://tse3.mm.bing.net/th?id=OIP.nAvLfVo-at8NFvoDuFwX9QHaFj&pid=Api&P=0&h=180"  width="100%" height="200"></div>
+      <div class="col"><img src="https://tse4.mm.bing.net/th?id=OIF.y1nL4L2r41DsaSa7GZgVlA&pid=Api&P=0&h=180"  width="100%" height="200"></div>
+      <div class="col"><img src="https://tse2.mm.bing.net/th?id=OIP.IO0iVvF9G-92zFmsflhLxgHaFj&pid=Api&P=0&h=180" width="100%" height="200"></div>
+  </div>
+  <div class="row">
+      <div class="col"><img src="https://tse2.mm.bing.net/th?id=OIP.7C0k-m6n6qpgrr9VHk-QygHaHa&pid=Api&P=0&h=180"width="100%" height="200"></div>
+      <div class="col"><img src="https://tse3.mm.bing.net/th?id=OIP.-OfvL1uSbN1cv5RRaFxvjAHaHa&pid=Api&P=0&h=180"width="100%" height="200"></div>
+      <div class="col"><img src="https://tse3.mm.bing.net/th?id=OIP.YXFf27OiFVI8wtx-IvpeawHaFx&pid=Api&P=0&h=180"width="100%" height="200"></div>
+      <div class="col"><img src="https://tse3.mm.bing.net/th?id=OIP.vddpXhO-8xEKjQDVXWou5wHaGB&pid=Api&P=0&h=180"width="100%" height="200"></div>
+  </div>
+</div>
+<!--footer-->
+<footer style="background-color:rgba(67, 52, 52, 0.316); padding: 100px 200px 100px 200px">
+<div class="row">
+    <div class="col">
+        <p><b>CUSTOMERS POLICIES</b></p>
+        <p>Contact Us</p>
+        <p>Terms and Conditions</p>
+        <p>Track order</p>
+        <p>Shipping</p>
+        <p>Cancellation</p>
+        <p>Returns</p>
+        <P>Privacy Policy</P>
+    </div>
+    <div class="col">
+        <p><b>EXPERIENCE IN MOBILE</b></p>
+        <div class="row">
+            <div class="col"><i class="fa fa-play" style="font-size:40px"></i> </div>
+            <div class="col"><i class="fa fa-apple" style="font-size:40px"></i></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div><br>
+        <p><b>KEEP IN TOUCH</b></p>
+        <div class="row">
+            <div class="col"><i class="fa fa-whatsapp" style="font-size:24px"></i></div>
+            <div class="col"><i class="fa fa-twitter" style="font-size:24px"></i></div>
+            <div class="col"><i class='fa fa-wikipedia-w' style="font-size:24px"></i></div>
+            <div class="col"><i class="fa fa-linkedin" style="font-size:24px"></i></div>
+            <div class="col"><i class="fa fa-facebook-square" style="font-size:24px"></i></div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <div class="col">
+        <h5><b>100% ORIGINAL</b> guarantee <br>for all products</h5><br>
+        <h5><b> Return within 14days </b>of<bt></bt> receiving your order </h5>
+    </div>
+</div>
+
+</footer>
+   
+  
+</body>
+</html>
