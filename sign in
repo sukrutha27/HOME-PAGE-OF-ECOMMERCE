@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            #id{
+                background-color:rgba(221, 150, 150, 0.32);
+                border-radius:15px;
+                padding: 50px 50px 50px 70px;
+                margin:100px 400px 100px 300px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            button,input{
+                font-family: Arial, sans-serif;
+                border-radius: 10px;
+                background-color: #f6f0f0;
+                width: 400px;
+                height: 35px;
+            }
+        </style>
+        <script>
+            function form(){
+                let mb=document.getElementById("mobile").value;
+                let mbpattern=/^\d{10}$/;
+                if(!mbpattern.test(mb)){
+                    alert("Invalid mobile number")
+                        return false;
+                    
+                }
+                }
+        </script>
+    </head>
+
+    <body>
+        <div id="id">
+            <form onsubmit="return form()">
+            <h2><b>login</b> or <b>signup..</b></h2>
+            <h3>Enter Mobile number</h3>
+            <input type="digit" placeholder="  +91 |" id="moblie" name="mobile" requried>
+            <p>by continuing,I agree to the <b>Terms of use</b> and <b>privacy policy</b></p>
+            <button type="submit">continue</button> <br>
+            <h5><b>Need help?</b></h5>
+            <hr>
+            <br>
+            <p align="center">New account</p>
+            <button style="align-items: center;">Create  new account</button>
+            </form>
+        </div>
+        
+        
+    </body>
+</html>
